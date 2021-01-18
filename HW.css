@@ -1,0 +1,19 @@
+
+.input-form{
+    border: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#desk{
+    border: 1px solid red;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.desk-card{
+    border: 1px solid red;
+    width: 90%;
+    margin: 0 auto;
+}
