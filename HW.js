@@ -40,12 +40,14 @@ function btnDeleteOptions(event){
 
 function deleteCard(cardTitle, cardDescription){
     let counter = -1;
+    let flag = true;
     for (let element of data){
         counter++
-        if(element.title === cardTitle && element.description === cardDescription){
-            console.log(data)
-            data.splice([counter], 1)
-            console.log(data)
+        if(element.title === cardTitle && element.description === cardDescription && flag){
+            // console.log(data)
+            data.splice([counter], 1);
+            // console.log(data)
+            flag = false
         }
     }
     createCardLent(); 
