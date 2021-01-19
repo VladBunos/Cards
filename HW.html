@@ -27,14 +27,27 @@
     <br>
 
 
-    <div id="desk">
-        <!-- <div class="desk-card">
-            <p class="title">Title: ${arrayElement.title}</p>
-            <p class="description">Description: ${arrayElement.description}</p>
-            <p>Date:</p>
-            <button class="btn" id="btnDelete">Удалить</button> <button class="btnSubmit">Редактировать</button>
-        </div>`  -->
-    </div>
+    <div id="desk"></div>
+
+    <div id="modal">
+        <div id="modal__wrapper">
+            <form action="">
+                <p>РЕДАКТИРОВАТЬ КОММЕНТАРИЙ</p>
+                <label>
+                    <span>Заголовок</span>
+                    <input type="text" id="modal-title"/>      
+                </label>
+                <br>
+                <label>
+                    <span>Описание</span>
+                    <input type="text" id="modal-description"/>      
+                </label>
+                <br>
+                <button id="modal-btn-submit">Сохранить изменения</button>
+                <button id="modal-btn-cancel">Отмена</button>
+            </form>
+        </div>
+      </div>
 
     <script src="./HW.js"></script>
 
